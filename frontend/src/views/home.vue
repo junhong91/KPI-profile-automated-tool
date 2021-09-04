@@ -1,12 +1,18 @@
 <template>
-  <div>Home page</div>
+  <div>
+    <FileInput></FileInput>
+  </div>
 </template>
 
 <script>
+import FileInput from "../components/fileInput.vue";
+
 export default {
   name: "Home",
   props: [],
-  components: {},
+  components: {
+    FileInput,
+  },
   mounted() {},
 };
 </script>

@@ -10,6 +10,7 @@
     </v-app-bar>
     <v-main>
       <!-- <HelloWorld/> -->
+      <router-view :key="$route.fullPath"></router-view>
     </v-main>
   </v-app>
 </template>

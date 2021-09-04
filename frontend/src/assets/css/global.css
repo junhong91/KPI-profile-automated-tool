@@ -1,0 +1,9 @@
+:root {
+  --color-dark-white: #f5f5f5;
+}
+
+.separator {
+  margin-top: 60px;
+  border-top: solid 1px var(--color-dark-white);
+  margin-bottom: 60px;
+}
